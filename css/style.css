@@ -71,3 +71,18 @@ footer{
     min-height: 300px;
     border: 1px solid black;
 }
+
+.item-top{
+    position: relative;
+}
+
+.img-sovrapposta{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.item-top:hover .img-sovrapposta{
+    display: block;
+}
