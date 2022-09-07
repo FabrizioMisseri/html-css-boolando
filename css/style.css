@@ -22,6 +22,9 @@ header , footer{
 /* header */
 header{
     background-color: #f76f15e5;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 
 .cell img{
