@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -33,13 +34,17 @@ header{
 }
 
 .cell a{
-    margin: 0 .3em;
+    margin-right: .3em;
 }
 
 
 /* footer */
 footer{
     background-color: #151515;
+}
+
+h5 , h4{
+    margin-bottom: .3em;
 }
 
 
