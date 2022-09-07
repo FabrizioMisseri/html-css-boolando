@@ -50,6 +50,13 @@ footer{
     justify-content: space-between;
 }
 
+.line-trough{
+    text-decoration: line-through;
+}
+
+.color-red{
+    color: red;
+}
 
 
 /* MAIN */
