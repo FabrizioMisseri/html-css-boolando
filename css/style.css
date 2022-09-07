@@ -58,6 +58,33 @@ footer{
     color: red;
 }
 
+.label{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+}
+
+.sfondo-rosso{
+    background-color: red;
+    padding: .4em;
+}
+
+.sfondo-verde{
+    background-color: green;
+    padding: .4em;
+}
+
+.heart{
+    background-color: white;
+    padding: .2em .4em;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+    top: 2%;
+}
+
+
 
 /* MAIN */
 .row{
