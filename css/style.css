@@ -14,11 +14,6 @@ img{
     max-width: 100%;
 }
 
-/* COMMON */
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
 
 
 /* header */
@@ -38,11 +33,34 @@ footer{
 }
 
 
-/* main */
-.row{
 
+/* COMMON */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    background-color: yellow;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+
+
+/* MAIN */
+.row{
+    padding: 2em 0;
 }
 
 .column{
-    
+    width: calc(100% / 3 - (30px / 2) );
+    /* debug */
+    background-color: aquamarine;
+    min-height: 300px;
+    border: 1px solid black;
 }
