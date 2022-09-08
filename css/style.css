@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
 }
 
 a{
@@ -19,22 +23,28 @@ header , footer{
     color: white;
 }
 
+ul{
+    list-style-type: none;
+}
+
 
 /* header */
 header{
     background-color: #f76f15e5;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 100;
     width: 100%;
 }
 
 .cell img{
-    max-width: 85px;
-    
+    max-height: 25px;
 }
 
-.cell a{
+.cell li{
     margin-right: .3em;
+    display: inline-block;
 }
 
 
@@ -99,7 +109,10 @@ h5 , h4{
 
 .heart{
     background-color: white;
-    padding: .2em .4em;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
     font-size: 1.5rem;
     position: absolute;
     right: 0;
@@ -109,6 +122,10 @@ h5 , h4{
 
 
 /* MAIN */
+main{
+    margin-top: 60px;
+}
+
 .row{
     padding: 2em 0;
 }
